@@ -7,18 +7,18 @@ import { type Race, type umaData, courses, months, seasons } from '../types';
 const displaySparkImg = (spark: string) => {
 	if (courses.some(e => e == spark)) {
 		return (
-  			<img src='/assets/stat_icon/skill_sta.png'/>
+  			<img src='./assets/stat_icon/skill_sta.png'/>
 		)
 	}
 
 	if (seasons.some(e => e == spark)) {
 		return (
-  			<img src='/assets/stat_icon/skill_spd.png'/>
+  			<img src='./assets/stat_icon/skill_spd.png'/>
 		)
 	}
 
 	return (
-  		<img src={`/assets/stat_icon/${spark}.png`}/>
+  		<img src={`./assets/stat_icon/${spark}.png`}/>
 	)
 }
 
@@ -38,7 +38,7 @@ const RaceComponent = ({race, uma}: { race: Race, uma: umaData }) => {
     return (
         <div className='container-race'>
             <div className='race-logo'>
-                <img src={`/assets/races/${race.logo}.png`} />
+                <img src={`./assets/races/${race.logo}.png`} />
             </div>
             <div className='race-name'>				
                 <div className='race-sparks flex'>

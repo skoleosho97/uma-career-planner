@@ -60,7 +60,7 @@ const UmaSelect = (
                             handleFocus();
                         }}
                     >
-                        <img src={`/assets/umas/${uma.icon}.png`} />
+                        <img src={`./assets/umas/${uma.icon}.png`} />
                     </div>
                     <div className='uma-info'>
                         <div className='uma-name'>
@@ -84,7 +84,7 @@ const UmaSelect = (
                                             handleFocus();
                                         }}
                                     >
-                                        <img src={`/assets/umas/${value.icon}.png`}/>
+                                        <img src={`./assets/umas/${value.icon}.png`}/>
                                         <div><em>[{value.name[0]}]</em>&nbsp;{value.name[1]}</div>
                                     </li>
                                 )}
@@ -119,7 +119,7 @@ const UmaSelect = (
                                     onChange={e => 
                                         handleSparksChange(e.target.checked, e.target.value)
                                     }/>
-                                <img src={`/assets/stat_icon/${spark}.png`} />
+                                <img src={`./assets/stat_icon/${spark}.png`} />
                             </div>				
                         )}
                         </div>
