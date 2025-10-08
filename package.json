@@ -1,0 +1,35 @@
+{
+  "name": "umacareerplanner",
+  "version": "0.1.0",
+  "homepage": "https://skoleosho97.github.io/uma-career-planner/",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.0.1",
+    "@fortawesome/free-solid-svg-icons": "^7.0.1",
+    "@fortawesome/react-fontawesome": "^3.0.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "eslint": "^9.35.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.4.0",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.43.0",
+    "vite": "^7.1.5"
+  }
+}

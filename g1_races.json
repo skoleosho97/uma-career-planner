@@ -1,0 +1,310 @@
+{
+    "1": {
+        "name": "Asahi Hai Futurity Stakes",
+        "year": [1, 12, 1],
+        "type": ["Turf", "Mile"],
+        "sparks": ["speed", "guts"],
+        "logo": "futurity_stakes"
+    },
+    "2": {
+        "name": "Hanshin Juvenile Fillies",
+        "year": [1, 12, 1],
+        "type": ["Turf", "Mile"],
+        "sparks": ["speed", "power"],
+        "logo": "juvenile_fillies"
+    },
+    "3": {
+        "name": "Hopeful Stakes",
+        "year": [1, 12, 2],
+        "type": ["Turf", "Medium"],
+        "sparks": ["speed", "stamina"],
+        "logo": "hopeful_stakes"
+    },
+    "4": {
+        "name": "Oka Sho",
+        "year": [2, 4, 1],
+        "type": ["Turf", "Mile"],
+        "sparks": ["hanshin", "guts"],
+        "logo": "oka_sho"
+    },
+    "5": {
+        "name": "Satsuki Sho",
+        "year": [2, 4, 1],
+        "type": ["Turf", "Medium"],
+        "sparks": ["nakayama", "power"],
+        "logo": "satsuki_sho"
+    },
+    "6": {
+        "name": "NHK Mile Cup",
+        "year": [2, 5, 1],
+        "type": ["Turf", "Mile"],
+        "sparks": ["speed", "guts"],
+        "logo": "mile_cup"
+    },
+    "7": {
+        "name": "Japanese Oaks",
+        "year": [2, 5, 2],
+        "type": ["Turf", "Medium"],
+        "sparks": ["tokyo", "power"],
+        "logo": "japanese_oaks"
+    },
+    "8": {
+        "name": "Tokyo Yushun (Japanese Derby)",
+        "year": [2, 5, 2],
+        "type": ["Turf", "Medium"],
+        "sparks": ["tokyo", "guts"],
+        "logo": "japanese_derby"
+    },
+    "9": {
+        "name": "Yasuda Kinen",
+        "year": [2, 6, 1],
+        "type": ["Turf", "Mile"],
+        "sparks": ["tokyo", "speed"],
+        "logo": "yasuda_kinen"
+    },
+    "10": {
+        "name": "Takarazuka Kinen",
+        "year": [2, 6, 2],
+        "type": ["Turf", "Medium"],
+        "sparks": ["summer", "guts"],
+        "logo": "takarazuka_kinen"
+    },
+    "11": {
+        "name": "Japan Dirt Derby",
+        "year": [2, 7, 1],
+        "type": ["Dirt", "Medium"],
+        "sparks": ["oi", "power"],
+        "logo": "dirt_derby"
+    },
+    "12": {
+        "name": "Sprinters Stakes",
+        "year": [2, 9, 2],
+        "type": ["Turf", "Sprint"],
+        "sparks": ["standard", "speed"],
+        "logo": "sprinters_stakes"
+    },
+    "13": {
+        "name": "Kikuka Sho",
+        "year": [2, 10, 2],
+        "type": ["Turf", "Long"],
+        "sparks": ["kyoto", "stamina"],
+        "logo": "kikuka_sho"
+    },
+    "14": {
+        "name": "Shuka Sho",
+        "year": [2, 10, 2],
+        "type": ["Turf", "Medium"],
+        "sparks": ["kyoto", "wit"],
+        "logo": "shuka_sho"
+    },
+    "15": {
+        "name": "Tenno Sho (Autumn)",
+        "year": [2, 10, 2],
+        "type": ["Turf", "Medium"],
+        "sparks": ["fall", "speed"],
+        "logo": "tenno_autumn"
+    },
+    "16": {
+        "name": "JBC Classic",
+        "year": [2, 11, 1],
+        "type": ["Dirt", "Medium"],
+        "sparks": ["stamina", "guts"],
+        "logo": "jbc_classic"
+    },
+    "17": {
+        "name": "JBC Ladies' Classic",
+        "year": [2, 11, 1],
+        "type": ["Dirt", "Mile"],
+        "sparks": ["speed", "guts"],
+        "logo": "jbc_ladies"
+    },
+    "18": {
+        "name": "JBC Sprint",
+        "year": [2, 11, 1],
+        "type": ["Dirt", "Sprint"],
+        "sparks": ["power", "guts"],
+        "logo": "jbc_sprint"
+    },
+    "19": {
+        "name": "Queen Elizabeth II Cup",
+        "year": [2, 11, 1],
+        "type": ["Turf", "Medium"],
+        "sparks": ["nonstandard", "stamina"],
+        "logo": "elizabeth_cup"
+    },
+    "20": {
+        "name": "Japan Cup",
+        "year": [2, 11, 2],
+        "type": ["Turf", "Medium"],
+        "sparks": ["tokyo", "stamina"],
+        "logo": "japan_cup"
+    },
+    "21": {
+        "name": "Mile Championship",
+        "year": [2, 11, 2],
+        "type": ["Turf", "Mile"],
+        "sparks": ["standard", "speed"],
+        "logo": "mile_champ"
+    },
+    "22": {
+        "name": "Champions Cup",
+        "year": [2, 12, 1],
+        "type": ["Dirt", "Mile"],
+        "sparks": ["chukyo", "power"],
+        "logo": "champ_cup"
+    },
+    "23": {
+        "name": "Arima Kinen",
+        "year": [2, 12, 2],
+        "type": ["Turf", "Long"],
+        "sparks": ["nakayama", "guts"],
+        "logo": "arima_kinen"
+    },
+    "24": {
+        "name": "Tokyo Daishoten",
+        "year": [2, 12, 2],
+        "type": ["Dirt", "Medium"],
+        "sparks": ["oi", "power"],
+        "logo": "tokyo_daishoten"
+    },
+    "25": {
+        "name": "February Stakes",
+        "year": [3, 2, 2],
+        "type": ["Dirt", "Mile"],
+        "sparks": ["winter", "power"],
+        "logo": "feb_stakes"
+    },
+    "26": {
+        "name": "Osaka Hai",
+        "year": [3, 3, 2],
+        "type": ["Turf", "Medium"],
+        "sparks": ["standard", "guts"],
+        "logo": "osaka_hai"
+    },
+    "27": {
+        "name": "Takamatsunomiya Kinen",
+        "year": [3, 3, 2],
+        "type": ["Turf", "Sprint"],
+        "sparks": ["chukyo", "speed"],
+        "logo": "takamatsu_kinen"
+    },
+    "28": {
+        "name": "Tenno Sho (Spring)",
+        "year": [3, 4, 2],
+        "type": ["Turf", "Long"],
+        "sparks": ["spring", "stamina"],
+        "logo": "tenno_spring"
+    },
+    "29": {
+        "name": "Victoria Mile",
+        "year": [3, 5, 1],
+        "type": ["Turf", "Mile"],
+        "sparks": ["speed", "power"],
+        "logo": "victoria_mile"
+    },
+    "30": {
+        "name": "Yasuda Kinen",
+        "year": [3, 6, 1],
+        "type": ["Turf", "Mile"],
+        "sparks": ["tokyo", "speed"],
+        "logo": "yasuda_kinen"
+    },
+    "31": {
+        "name": "Takarazuka Kinen",
+        "year": [3, 6, 2],
+        "type": ["Turf", "Medium"],
+        "sparks": ["summer", "guts"],
+        "logo": "takarazuka_kinen"
+    },
+    "32": {
+        "name": "Teio Sho",
+        "year": [3, 6, 2],
+        "type": ["Dirt", "Medium"],
+        "sparks": ["oi", "power"],
+        "logo": "teio_sho"
+    },
+    "33": {
+        "name": "Sprinters Stakes",
+        "year": [3, 9, 2],
+        "type": ["Turf", "Sprint"],
+        "sparks": ["standard", "speed"],
+        "logo": "sprinters_stakes"
+    },
+    "34": {
+        "name": "Tenno Sho (Autumn)",
+        "year": [3, 10, 2],
+        "type": ["Turf", "Medium"],
+        "sparks": ["fall", "speed"],
+        "logo": "tenno_autumn"
+    },
+    "35": {
+        "name": "JBC Classic",
+        "year": [3, 11, 1],
+        "type": ["Dirt", "Medium"],
+        "sparks": ["stamina", "guts"],
+        "logo": "jbc_classic"
+    },
+    "36": {
+        "name": "JBC Ladies' Classic",
+        "year": [3, 11, 1],
+        "type": ["Dirt", "Mile"],
+        "sparks": ["speed", "guts"],
+        "logo": "jbc_ladies"
+    },
+    "37": {
+        "name": "JBC Sprint",
+        "year": [3, 11, 1],
+        "type": ["Dirt", "Sprint"],
+        "sparks": ["power", "guts"],
+        "logo": "jbc_sprint"
+    },
+    "38": {
+        "name": "Queen Elizabeth II Cup",
+        "year": [3, 11, 1],
+        "type": ["Turf", "Medium"],
+        "sparks": ["nonstandard", "stamina"],
+        "logo": "elizabeth_cup"
+    },
+    "39": {
+        "name": "Japan Cup",
+        "year": [3, 11, 2],
+        "type": ["Turf", "Medium"],
+        "sparks": ["tokyo", "stamina"],
+        "logo": "japan_cup"
+    },
+    "40": {
+        "name": "Mile Championship",
+        "year": [3, 11, 2],
+        "type": ["Turf", "Mile"],
+        "sparks": ["standard", "speed"],
+        "logo": "mile_champ"
+    },
+    "41": {
+        "name": "Champions Cup",
+        "year": [3, 12, 1],
+        "type": ["Dirt", "Mile"],
+        "sparks": ["chukyo", "power"],
+        "logo": "champ_cup"
+    },
+    "42": {
+        "name": "Arima Kinen",
+        "year": [3, 12, 2],
+        "type": ["Turf", "Long"],
+        "sparks": ["nakayama", "guts"],
+        "logo": "arima_kinen"
+    },
+    "43": {
+        "name": "Tokyo Daishoten",
+        "year": [3, 12, 2],
+        "type": ["Dirt", "Medium"],
+        "sparks": ["oi", "power"],
+        "logo": "tokyo_daishoten"
+    },
+    "44": {
+        "name": "URA Finale",
+        "year": [0, 0, 0],
+        "type": ["", ""],
+        "sparks": ["speed", "stamina"],
+        "logo": "ura_finale"
+    }
+}

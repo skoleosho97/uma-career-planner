@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+h2 {
+    color: #5cd651;
+}
+
+input[type="text"][disabled] {
+   color: #000;
+}
+
+#root {
+    height: 100vh;
+}
+
+.wrap {
+    padding: 36px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+}
+
+.header {
+    height: 275px;
+    display: grid;
+    grid-template-columns: 128px auto;
+    grid-template-rows: 142px repeat(2, 0.3fr); 
+}
+
+.uma {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.uma-icon {
+    width: 128px;
+    height: 142px;
+}
+
+.uma-icon>img {
+    width: 100%;
+}
+
+.uma-name {
+    margin-top: 16px;
+    margin-left: 6px;
+}
+
+.uma-selected-name {
+    background: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.uma-suggestions {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    border: 2px solid #aaabd9;
+}
+
+.uma-suggestion {
+    background: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.uma-suggestion:nth-child(odd) {
+    background: #eee;
+}
+
+.uma-suggestion:hover {
+    background: #c9c2df;
+}
+
+.uma-aptitude {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-content: center;
+}
+
+.uma-stats {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.uma-stats>div {
+    display: flex;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+}
+
+.stat label {
+    width: 25px;
+    height: 25px;
+}
+
+.stat label img {
+    width: 100%;
+    height: 100%;
+}
+
+.uma-career-races {
+    margin-left: 150px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.race-wrapper {
+    position: relative;
+    margin-bottom: 18px;
+    padding: 4px 7px;
+    width: 550px;
+    height: 85px;
+    background: #eee;
+    border-top: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 3px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+    border-radius: 5px;
+    color: #723131;
+    display: grid;
+    grid-template-columns: 128px auto 125px;
+    grid-template-rows: 0.4fr 0.6fr;
+}
+
+.race-logo {
+    width: 128px;
+    display: flex;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.race-name {
+    margin-left: 6px;
+    border-bottom: 1px solid #444;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.race-ribbon {
+    padding: 2px 7px;
+    display: flex;
+    justify-self: end;
+    align-items: center;
+    background: #810000;
+    color: #fff;
+    font-weight: bold;
+
+    position: absolute;
+    --f: 8px; /* control the folded part*/
+    --r: 6px; /* control the ribbon shape */
+    border-bottom: var(--f) solid #0005;
+    border-left: var(--r) solid #0000;
+    clip-path: 
+        polygon(0 0,100% 0,100% calc(100% - var(--f)),calc(100% - var(--f)) 100%,
+        calc(100% - var(--f)) calc(100% - var(--f)),0 calc(100% - var(--f)),
+        var(--r) calc(50% - var(--f)/2));
+    top: 4px;
+    right: calc(-1*var(--f));
+}
+
+
+.race-year {
+    margin-left: 6px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    display: flex;
+    align-items: center;
+}
+
+.race-year>span {
+    width: 200px;
+    padding: 3px 3px 3px 4px;
+    background: #ddd;
+    border-radius: 5px;
+    color: #f561c3;
+    display: flex;
+    align-items: center;
+}
+
+.race-year>span>span {
+    width: 100%;
+    margin-left: 3px;
+    padding: 4px;
+    background: #eee;
+    border-radius: 3px;
+    color: #723131;
+    font-weight: bold;
+}
+
+.race-sparks {
+    display: flex;
+}
+
+.race-sparks img {
+    margin-right: 5px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.race-type {
+    margin-top: 4px;
+    margin-bottom: 5px;
+    justify-self: end;
+    align-content: center;
+}
+
+.race-type>span {
+    padding: 2px 9px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.race-type>span:last-child {
+    margin-left: 7px;
+}

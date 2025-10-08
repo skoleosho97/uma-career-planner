@@ -1,0 +1,67 @@
+{
+    "1": {
+        "name": ["Empress Road", "Air Groove"],
+        "name_jp": "",
+        "icon": "air_groove",
+        "stats": {
+            "surface": {
+                "dirt": "G",
+                "turf": "A"
+            },
+            "distance": {
+                "sprint": "C",
+                "mile": "B",
+                "medium": "A",
+                "long": "E"
+            },
+            "strategy": {
+                "front": "D",
+                "pace": "A",
+                "late": "A",
+                "end": "G"
+            }
+        },
+        "career": [
+            ["Hanshin Juvenile Fillies", 13, 23],
+            ["Oka Sho", 24, 31],
+            ["Japanese Oaks", 32, 34],
+            ["Shuka Sho", 35, 44],
+            ["Osaka Hai", 45, 54],
+            ["Takarazuka Kinen", 55, 60],
+            ["Sapporo Kinen", 61, 64],
+            ["Tenno Sho (Autumn)", 65, 68]
+        ]
+    },
+    "2": {
+        "name": ["Starlight Road", "Oguri Cap"],
+        "name_jp": "",
+        "icon": "oguri_cap",
+        "stats": {
+            "surface": {
+                "dirt": "A",
+                "turf": "B"
+            },
+            "distance": {
+                "sprint": "E",
+                "mile": "A",
+                "medium": "A",
+                "long": "B"
+            },
+            "strategy": {
+                "front": "F",
+                "pace": "A",
+                "late": "A",
+                "end": "D"
+            }
+        },
+        "career": [
+            ["Get at least 3,000 fans", 13, 24],
+            ["NHK Mile Cup", 25, 33],
+            ["NHK Championship", 34, 46],
+            ["Arima Kinen", 47, 48],
+            ["Top 3 Finish in 2 G1 Races", 49, 60],
+            ["Tenno Sho (Autum)", 61, 68],
+            ["Arima Kinen", 69, 72]
+        ]
+    }
+}
